@@ -1,7 +1,7 @@
-String hi() {
-  return "Akbar";
+String hi(String name) {
+  return "Hi, " + name;
 }
 
 void main() {
-  print(hi());
+  print(hi("Akbar"));
 }
